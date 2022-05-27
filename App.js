@@ -10,7 +10,7 @@ import React from 'react';
 import {SafeAreaView, StatusBar, useColorScheme} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import {Opacity} from './src/components';
+import {Opacity, Translate} from './src/components';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -23,7 +23,8 @@ const App = () => {
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <Opacity />
+      {/* <Opacity /> */}
+      <Translate />
     </SafeAreaView>
   );
 };

@@ -1,3 +1,4 @@
 import Opacity from './opacity';
+import Translate from './Translate';
 
-export {Opacity};
+export {Opacity, Translate};
